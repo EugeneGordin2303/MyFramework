@@ -11,11 +11,11 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A short description of MyFramework."
   spec.description  = "Longer description about my awesome framework"
-  spec.homepage     = "http://EXAMPLE/MyFramework"
+  spec.homepage     = ""
   spec.license      = "MIT"
   spec.author             = { "Eugene Gordin" => "eugene@centerid.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "https://github.com/EugeneGordin2303/MyFramework.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/EugeneGordin2303/MyFramework.git", :tag => "main" }
 
   spec.source_files  = "MyFramework"
   spec.exclude_files = "Classes/Exclude"
