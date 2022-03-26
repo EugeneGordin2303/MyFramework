@@ -15,11 +15,10 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Eugene Gordin" => "eugene@centerid.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "https://github.com/EugeneGordin2303/MyFramework.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/EugeneGordin2303/MyFramework.git", :tag => "1.0.2" }
 
   spec.source_files  = "MyFramework"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "4.2"
-  
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency 'CocoaLumberjack/Swift'
 end
