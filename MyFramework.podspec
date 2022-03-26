@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Eugene Gordin" => "eugene@centerid.com" }
   spec.platform     = :ios, "13.0"
-  spec.source       = { :git => "http://EXAMPLE/MyFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/EugeneGordin2303/MyFramework.git", :tag => "1.0.0" }
 
   spec.source_files  = "MyFramework"
   spec.exclude_files = "Classes/Exclude"
