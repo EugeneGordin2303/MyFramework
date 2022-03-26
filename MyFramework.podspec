@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "A short description of MyFramework."
   spec.description  = "Longer description about my awesome framework"
-  spec.homepage     = ""
+  spec.homepage     = "https://github.com/EugeneGordin2303/MyFramework"
   spec.license      = "MIT"
   spec.author             = { "Eugene Gordin" => "eugene@centerid.com" }
   spec.platform     = :ios, "13.0"
