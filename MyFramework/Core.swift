@@ -12,7 +12,7 @@ public struct Core{
     public init(){}
     
     public func verify(){
-        print("Verifying Core...")
+        print("Verifying Core...\(#file)")
     }
     
     public func verifyThirdParty(){
